@@ -1,0 +1,10 @@
+framework module MyExtension {
+  umbrella header "MyExtension.h"
+
+  export *
+  module * { export * }
+}
+
+module MyExtension.Swift {
+    header "MyExtension-Swift.h"
+}
