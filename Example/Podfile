@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MyExtension_Example' do
+  pod 'MyExtension', :path => '../'
+
+  target 'MyExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
